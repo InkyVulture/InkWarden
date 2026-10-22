@@ -11,30 +11,30 @@ class nav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div id="nav">
-                <i class="fa-solid fa-bars" id="fa-icon" onclick="dropDown()"></i>
-                <button type="button" id="login" onclick="window.location.href='/placeholder.html'">
-                    <p>Log In</p>
-                    <i class="fa-solid fa-circle-user" id="fa-icon"></i>
-                </button>
-            </div>
+      <i class="fa-solid fa-bars" id="fa-icon" onclick="dropDown()"></i>
+      <button type="button" id="login" onclick="document.location='login.html'">
+        <p>Log In</p>
+        <i class="fa-solid fa-circle-user" id="fa-icon"></i>
+      </button>
+    </div>
 
     <div id="dropdown">
         <div id="menulinks">
             <div class="menusection">
-                <a href="index.html">Home</a>
-                <a href="exploreart.html">Explore Art</a>
-                <a href="explorelore.html">Explore Lore</a>
+              <button type="button" id="menu-btn" onclick="document.location='index.html'">Home</button>
+              <button type="button" id="menu-btn" onclick="document.location='exploreart.html'">Explore Art</button>
+              <button type="button" id="menu-btn" onclick="document.location='explorelore.html'">Explore Lore</button>
             </div>
             <div class="menusection">
-                <a href="profile.html">Profile</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="lore.html">Lore</a>
-                <a href="accountsettings.html">Settings</a>
+              <button type="button" id="menu-btn" onclick="document.location='profile.html'">Profile</button>
+              <button type="button" id="menu-btn" onclick="document.location='gallery.html'">Gallery</button>
+              <button type="button" id="menu-btn" onclick="document.location='lore.html'">Lore</button>
+              <button type="button" id="menu-btn" onclick="document.location='settings.html'">Settings</button>
             </div>
             <div class="menusection">
-                <a href="about.html">About</a>
-                <a href="members.html">Members</a>
-                <a href="contact.html">Contact</a>
+              <button type="button" id="menu-btn" onclick="document.location='about.html'">About</button>
+              <button type="button" id="menu-btn" onclick="document.location='members.html'">Members</button>
+              <button type="button" id="menu-btn" onclick="document.location='contact.html'">Contact</button>
             </div>
         </div>
     </div>`;
