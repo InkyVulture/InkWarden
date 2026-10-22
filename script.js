@@ -1,6 +1,6 @@
 (function loadFontAwesome() {
   const script = document.createElement('script');
-  script.src = "https://fontawesome.com";
+  script.src = "https://kit.fontawesome.com/beb77cbc0e.js";
   script.crossOrigin = "anonymous";
   document.head.appendChild(script);
 })();
