@@ -37,7 +37,23 @@ class nav extends HTMLElement {
                 <a href="/contact.html">Contact</a>
             </div>
         </div>
-    </div>
-    `;
+    </div>`;
   }
 }
+
+customElements.define('nav-menu', nav);
+
+class footer extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+    <div id="footer">
+        <links>
+            <a href="/members.html">Members</a> | 
+            <a href="/about.html">About</a> | 
+            <a href="/contact.html">Contact</a>
+        </links>
+    </div>`;
+  }
+}
+
+customElements.define('footer-menu', footer);

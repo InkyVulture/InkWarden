@@ -84,14 +84,13 @@ header {
     color: #070A0E;
 }
 
-footer {
+#footer {
     background-color: #070A0E;
     margin-top: 20%;
     padding: 5%;
     align-items: center;
     display: flex;
     justify-content: center;
-    
 }
 
 links {
