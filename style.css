@@ -188,6 +188,7 @@ text {
   border-radius: 10px;
   width: 70%;
   padding: 20px;
+  margin:70px auto;
 }
 #home-btn {
   padding: 10px;
@@ -195,6 +196,9 @@ text {
   border: 0px;
 }
 #placebox {
+    top: 60px;
+    width:100%;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
