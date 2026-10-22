@@ -1,11 +1,3 @@
-(function loadFontAwesome() {
-  const script = document.createElement('script');
-  script.src = "https://kit.fontawesome.com/beb77cbc0e.js";
-  script.crossOrigin = "anonymous";
-  document.head.appendChild(script);
-})();
-
-
 function dropDown() {
   var x = document.getElementById("dropdown");
   if (x.style.display === "block") {
@@ -18,7 +10,7 @@ function dropDown() {
 class nav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <div class="nav">
+    <div id="nav">
                 <i class="fa-solid fa-bars" id="fa-icon" onclick="dropDown()"></i>
                 <button type="button" id="login" onclick="window.location.href='/placeholder.html'">
                     <p>Log In</p>
