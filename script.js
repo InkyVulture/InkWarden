@@ -72,3 +72,5 @@ class placeholder extends HTMLElement {
       </div>`;
   }
 }
+
+customElements.define('place-holder', placeholder);
