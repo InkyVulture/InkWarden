@@ -194,3 +194,8 @@ text {
   border-radius: 5px;
   border: 0px;
 }
+#placebox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
