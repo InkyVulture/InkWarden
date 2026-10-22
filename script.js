@@ -65,10 +65,7 @@ class placeholder extends HTMLElement {
     <div id="placebox">
       <div id="placeholder">
         <h1>This page is a work in progress.</h1>
-        <p>This page doesn't exist yet, but it will in the future.
-        <br>
-        Sorry!
-        </p>
+        <p>This page doesn't exist yet, but it will in the future.</p>
         <button type="button" id="home-btn" onclick="document.location='index.html'>Back to Home</button>
       </div>
     </div>`;
