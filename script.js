@@ -7,11 +7,26 @@ function dropDown() {
   }
 }
 
+function searchBar() {
+  var x = document.getElementById("search-bar");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+  else {
+    x.style.display = "block";
+  }
+}
+
+
 class nav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div id="nav">
-      <i class="fa-solid fa-bars" id="fa-icon" onclick="dropDown()"></i>
+      <div id="nav-box">
+        <i class="fa-solid fa-bars" id="fa-icon" onclick="dropDown()"></i>
+        <i class="fa-solid fa-magnifying-glass" id="fa-icon" onclick="searchBar"></i>
+        <input type="text" id="search-bar" placeholder="Search InkWarden">
+      </div>
       <button type="button" id="login" onclick="document.location='login.html'">
         <p>Log In</p>
         <i class="fa-solid fa-circle-user" id="fa-icon"></i>

@@ -33,6 +33,28 @@ p {
     background-color: #070A0E;
     height: 60px;
 }
+
+#nav-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-box > .fa-magnifying-glass {
+  font-size: 20px;
+}
+
+#search-bar {
+  background-color: #151F2C;
+  display: none;
+  border: 1px #BDC0C6 solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  color: #BDC0C6;
+}
+
 #login {
     display: flex;
     background-color: #070A0E;
