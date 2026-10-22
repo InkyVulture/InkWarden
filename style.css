@@ -15,7 +15,7 @@ p {
 }
 
 /* Nav Bar */
-nav {
+#nav {
     position: fixed;
     display: flex;
     top: 0px;
