@@ -21,20 +21,20 @@ class nav extends HTMLElement {
     <div id="dropdown">
         <div id="menulinks">
             <div class="menusection">
-                <a href="/home.html">Home</a>
-                <a href="/exploreart.html">Explore Art</a>
-                <a href="/explorelore.html">Explore Lore</a>
+                <a href="index.html">Home</a>
+                <a href="exploreart.html">Explore Art</a>
+                <a href="explorelore.html">Explore Lore</a>
             </div>
             <div class="menusection">
-                <a href="/profile.html">Profile</a>
-                <a href="/gallery.html">Gallery</a>
-                <a href="/lore.html">Lore</a>
-                <a href="/accountsettings.html">Settings</a>
+                <a href="profile.html">Profile</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="lore.html">Lore</a>
+                <a href="accountsettings.html">Settings</a>
             </div>
             <div class="menusection">
-                <a href="/about.html">About</a>
-                <a href="/members.html">Members</a>
-                <a href="/contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="members.html">Members</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
     </div>`;
@@ -48,9 +48,9 @@ class footer extends HTMLElement {
     this.innerHTML = `
     <div id="footer">
         <links>
-            <a href="/members.html">Members</a> | 
-            <a href="/about.html">About</a> | 
-            <a href="/contact.html">Contact</a>
+            <a href="members.html">Members</a> | 
+            <a href="about.html">About</a> | 
+            <a href="contact.html">Contact</a>
         </links>
     </div>`;
   }
