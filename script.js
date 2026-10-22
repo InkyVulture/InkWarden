@@ -1,3 +1,11 @@
+(function loadFontAwesome() {
+  const script = document.createElement('script');
+  script.src = "https://fontawesome.com";
+  script.crossOrigin = "anonymous";
+  document.head.appendChild(script);
+})();
+
+
 function dropDown() {
   var x = document.getElementById("dropdown");
   if (x.style.display === "block") {
