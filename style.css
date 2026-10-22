@@ -176,3 +176,21 @@ text {
     padding: 10px;
     border-radius: 10px;
 }
+
+
+#placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151F2C;
+  border: 1px solid #BDC0C6;
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+}
+#home-btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+}
